@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: var(--default-layout-width);
+
+  padding-right: var(--default-layout-horizontal-spacer);
+  padding-left: calc(var(--default-layout-horizontal-spacer) - 4px);
+  margin-top: var(--default-layout-header-height);
+
+  display: flex;
+}
+
+.content {
+  flex: 1;
+}
